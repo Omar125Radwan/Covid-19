@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'GraphikBlack';
+  src: url(../fonts/GraphikBlack.otf);
+}
+@font-face {
+  font-family: 'GraphikBold';
+  src: url(../fonts/GraphikBold.otf);
+}
+@font-face {
+  font-family: 'GraphikExtralight';
+  src: url(../fonts/GraphikExtralight.otf);
+}
+@font-face {
+  font-family: 'GraphikLight';
+  src: url(../fonts/GraphikLight.otf);
+}
+@font-face {
+  font-family: 'GraphikMedium';
+  src: url(../fonts/GraphikMedium.otf);
+}
+@font-face {
+  font-family: 'GraphikRegular';
+  src: url(../fonts/GraphikRegular.otf);
+}
+@font-face {
+  font-family: 'GraphikSemibold';
+  src: url(../fonts/GraphikSemibold.otf);
+}
+@font-face {
+  font-family: 'GraphikSuper';
+  src: url(../fonts/GraphikSuper.otf);
+}
+@font-face {
+  font-family: 'GraphikThin';
+  src: url(../fonts/GraphikSuperItalic.otf);
+}

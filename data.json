@@ -1,0 +1,76 @@
+{
+  "globalData": [
+    {
+      "cases": {
+        "img": "img/symp-2.png",
+        "total": "1,245,347",
+        "percent": 95
+      }
+    },
+    {
+      "recoverd": {
+        "total": "259,544",
+        "percent": 79
+      }
+    },
+    {
+      "deths": { 
+        "total": "68,184", 
+        "percrent": 21 
+      } 
+    }
+  ],
+  "data": {
+    "total": "1,245,347",
+    "countries": [
+      {
+        "num": 1,
+        "flag": "img/usa.png",
+        "name": "United States",
+        "cases": "321,020"
+      },
+      {
+        "num": 2,
+        "flag": "img/spain.png",
+        "name": "Spain",
+        "cases": "130,759"
+      },
+      {
+        "num": 3,
+        "flag": "img/italy.png",
+        "name": "Italy",
+        "cases": "128,948"
+      },
+      {
+        "num": 4,
+        "flag": "img/Germany.png",
+        "name": "Germany",
+        "cases": "97,351"
+      },
+      {
+        "num": 5,
+        "flag": "img/china.png",
+        "name": "China (mailand)",
+        "cases": "81,669"
+      },
+      {
+        "num": 6,
+        "flag": "img/france.png",
+        "name": "France",
+        "cases": "68,605"
+      },
+      {
+        "num": 7,
+        "flag": "img/iran.png",
+        "name": "Iran",
+        "cases": "58,226"
+      },
+      {
+        "num": 8,
+        "flag": "img/uk.png",
+        "name": "United Kingdom",
+        "cases": "47,806"
+      }
+    ]
+  }
+}

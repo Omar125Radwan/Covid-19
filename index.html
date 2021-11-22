@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid-19</title>
+    <!-- Bootstrap V 5.1 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    <!-- Fonts -->
+    <link rel="stylesheet" href="css/fonts.css" />
+    <!-- Main Style -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div id="indector"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img
+            style="width: 55px; height: 55px"
+            src="img/logo.png"
+            alt=""
+          />COVID-19</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Results</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Exterior</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Interior</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Starts Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="main-title">COVID-19 Live Tracker</h3>
+            <p>
+              The Coronavirus (COVID-19) was first reported in Wuhan, Hubei,
+              China in December 2019, the outbreak was later recognized as a
+              pandemic by the World Health Organization (WHO) on 11 March 2020.
+            </p>
+            <button class="protect">
+              How To Protect <i class="fas fa-chevron-right"></i>
+            </button>
+            <button class="find">
+              Find A Doctor <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <img src="img/emo.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Ends Hero Section -->
+
+    <!-- Starts Global Section -->
+    <section class="global">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 box">
+            <img src="img/status-1.png" alt="" />
+            <div class="content">
+              <div class="status">
+                <span>Stats Overview<span class="live-span"> Live</span></span>
+              </div>
+              <h5>Global <i class="fas fa-chevron-down"></i></h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 box">
+            <img src="img/status-2.png" alt="" />
+            <div class="content">
+              <div class="status"><span>Total Coronavirus Cases</span></div>
+              <h5>1,245,347</h5>
+              <img style="width: 16px" src="img/status-up.png" alt="" />
+              <span class="totalCase">95%</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 box">
+            <img src="img/status-3.png" alt="" />
+            <div class="content">
+              <div class="status"><span>Total Recovered</span></div>
+              <h5>259,544</h5>
+              <img style="width: 16px" src="img/status-down.png" alt="" />
+              <span class="totalRec">79%</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 box">
+            <img src="img/status-4.png" alt="" />
+            <div class="content">
+              <div class="status"><span>Total Deaths</span></div>
+              <h5>68,184</h5>
+              <img style="width: 16px" src="img/status-up.png" alt="" />
+              <span class="totalCase">21%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="back-back"></div>
+    </section>
+    <!-- Ends Global Section -->
+
+    <!-- Starts Statics -->
+    <section class="statics">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 map-container bounceInLeft wow">
+            <div class="affected">
+              <h3>Covid-19 Affected Areas</h3>
+              <div class="mos-las">
+                <div class="most">Most affected <img src="img/ring-red.png" alt=""></div>
+                <div class="lass">Lass affected <img src="img/ring-green.png" alt=""></div>
+              </div>
+            </div>
+            <img class="map-img" style="width: 100%;" src="img/Map.png" alt="">
+          </div>
+          <div class="col-lg-4 world bounceInRight wow">
+            <div class="filter">
+              <input type="text" placeholder="Filter to a location"> <span class="inner-input"><i class="fab fa-telegram"></i></span>
+            </div>
+            <div class="global">
+              <input type="text" placeholder="Global" value="Global"> <span class="inner-input">1,245,347</span>
+            </div>
+            <hr>
+            <div class="countries">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Edns Statics -->
+
+    <!-- spread Section starts -->
+    <section class="spread bounceInLeft wow">
+      <h2 class="center-heading">How coronavirus spread</h2>
+      <div class="container">
+        <div class="row row-cols-3 d-flex justify-content-between cards">
+          <!-- Card -->
+          <div class="col-md-3 text-center caard">
+            <img src="img/spread-1.png" alt="">
+            <h4>Person-to-person spread</h4>
+            <p>The coronavirus is thought to spread mainly from person to person. This can happen between people who are in close contact with one another.</p>
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div class="col-md-3 text-center caard">
+            <img src="img/spread-2.png" alt="">
+            <h4>Person coughs or sneezes</h4>
+            <p>The coronavirus is thought to spread mainly from person to person. This can happen between people who are in close contact with one another.</p>
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div class="col-md-3 text-center caard">
+            <img src="img/spread-3.png" alt="">
+            <h4>Sore Throat</h4>
+            <p>A sore throat can make it painful to eat and even talk. It brings scratchiness and irritation to the throat that can become worse when swallowing.</p>
+          </div>
+          <!-- Card -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- spread Section ends-->
+    <section class="spread spread-symp bounceInRight wow">
+      <h2 class="center-heading">Symptoms of coronavirus</h2>
+      <div class="container">
+        <div class="row row-cols-3 d-flex justify-content-between cards">
+          <!-- Card -->
+          <div class="col-md-3 text-center caard">
+            <img src="img/symp-1.png" alt="">
+            <h4>Fever</h4>
+            <p>High Fever – this means you feel hot to touch on your chest or back (you do not need to measure your temperature). It is a common sign and also may appear in 2-10 days if you affected.</p>
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div class="col-md-3 text-center caard">
+            <img src="img/symp-2.png" alt="">
+            <h4>Dry cough</h4>
+            <p>Continuous cough – this means coughing a lot for more than an hour, or 3 or more coughing episodes in 24 hours (if you usually have a cough, it may be worse than usual).</p>
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div class="col-md-3 text-center caard">
+            <img src="img/symp-3.png" alt="">
+            <h4>Sore Throat</h4>
+            <p>A sore throat can make it painful to eat and even talk. It brings scratchiness and irritation to the throat that can become worse when swallowing.</p>
+          </div>
+          <!-- Card -->
+
+        </div>
+      </div>
+    </section>
+    <!-- spread section ends -->
+
+    <!-- Symptoms of coronavirus Starts2 -->
+    <section class="syptoms bounceInLeft wow">
+      <h2 class="center-heading">Symptoms of coronavirus</h2>
+      <div class="container">
+        <div class="row symp-cards">
+
+          <!-- Card -->
+          <div class="col-lg-3 col-md-6 symp-card">
+            <img src="img/symp-4.png" alt="">
+            <h4>Wash your hands regularly with soap</h4>
+            <p>Handwashing is one of the best ways to protect yourself and your family from getting sick. Learn when and how you should wash your hands to stay healthy.</p>
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div class="col-lg-3 col-md-6 symp-card">
+            <img src="img/symp-5.png" alt="">
+            <h4>Stay home if you feel unwell.</h4>
+            <p>Most people with COVID-19 have mild illness and are able to recover at home without medical care. Do not leave your home, except to get medical care.</p>
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div class="col-lg-3 col-md-6 symp-card">
+            <img src="img/symp-6.png" alt="">
+            <h4>Avoid touching your <br> face.</h4>
+            <p>To help prevent infections, keep your hands away from your eyes, nose, and mouth. Why? Touching the mucous membranes on your face.</p>
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div class="col-lg-3 col-md-6 symp-card">
+            <img src="img/symp-7.png" alt="">
+            <h4>Cover your mouth and nose</h4>
+            <p>Cover your mouth and nose with a tissue when you cough or sneeze. Put your used tissue in a waste basket. If you don't have a tissue, cough or sneeze into your.</p>
+          </div>
+          <!-- Card -->
+
+        </div>
+      </div>
+    </section>
+    <!-- Symptoms of coronavirus ends2 -->
+
+    <!-- Start Faq Section -->
+    <section class="faq">
+      <h2 class="center-heading">FAQ</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 overflow-hidden bounceInLeft wow">
+            <ul class="list-unstyled">
+              <li><span>COVID-19</span><i class="fas fa-sort-up"></i></li>
+              <li><span>How it Spreads</span><i class="fas fa-sort-up"></i></li>
+              <li><span>How to Protect Yourself</span><i class="fas fa-sort-up"></i></li>
+              <li><span>Symptoms & Testing</span><i class="fas fa-sort-up"></i></li>
+              <li><span>Community</span><i class="fas fa-sort-up"></i></li>
+            </ul>
+          </div>
+
+          <!-- Accordin -->
+          <div class="col-lg-9 overflow-hidden bounceInRight wow">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <span>What is a novel coronavirus?</span>
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>On February 11, 2020 the World Health Organization announced an official name for the disease that 
+                      is causing the 2019 novel coronavirus outbreak.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    What kind of wax do you use & how long does it last?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>On February 11, 2020 the World Health Organization announced an official name for the disease that 
+                      is causing the 2019 novel coronavirus outbreak.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What kind of resources do you need from me?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>On February 11, 2020 the World Health Organization announced an official name for the disease that 
+                      is causing the 2019 novel coronavirus outbreak.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Does applying wax remove scratches & swirl mark's?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>On February 11, 2020 the World Health Organization announced an official name for the disease that 
+                      is causing the 2019 novel coronavirus outbreak.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Accordin -->
+        </div>
+      </div>
+    </section>
+    <!-- End Faq Section -->
+
+    <!-- Start Blog -->
+    <section class="blog-section bounceInUp wow">
+      <h2 class="center-heading">Blog topics</h2>
+      <div class="container">
+        <div class="row row-cols-3 d-flex justify-content-between">
+
+          <!-- Card -->
+          <div class="caard col-lg-3">
+            <div class="img-div" style="height: 175; overflow: hidden;">
+              <img src="img/hero-1.jpg" class="card-img-top" alt="">
+            </div>
+            <div class="caard-body">
+              <h5 class="caard-title">Wearing face mask working</h5>
+              <p class="caard-text">If you wear a mask, then you must know how to use it and dispose of it properly. When…</p>
+              <div class="dating d-flex justify-content-between">
+                <span class="date">10 Mar 2020</span>
+                <a href="#">read more</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div class="caard col-lg-3">
+            <div class="img-div" style="height: 175; overflow: hidden;">
+              <img src="img/hero-2.jpg" class="card-img-top" alt="">
+            </div>
+            <div class="caard-body">
+              <h5 class="caard-title">Cleaning hands with sanitizer</h5>
+              <p class="caard-text">Washing your hands can protect you and your ... Also, alcohol-based hand sanitizer kills the coronavirus…</p>
+              <div class="dating d-flex justify-content-between">
+                <span class="date">21 Oct 2020</span>
+                <a href="#">read more</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div class="caard col-lg-3">
+            <div class="img-div" style="height: 175; overflow: hidden;">
+              <img src="img/hero-3.jpg" class="card-img-top" alt="">
+            </div>
+            <div class="caard-body">
+              <h5 class="caard-title">Stay home</h5>
+              <p class="caard-text">Stay home. Save lives.​. As COVID-19 continues to impact communities around the world…</p>
+              <div class="dating d-flex justify-content-between">
+                <span class="date">15 May 2020</span>
+                <a href="#">read more</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+
+        </div>
+
+        <div class="view-all text-center">
+          <a href="#"><button><span>View All</span> <i class="fas fa-chevron-right"></i></button></i></a>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Blog -->
+    
+    <!-- Start Footer -->
+    <footer class="footer bounceInDown wow">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 first-foot">
+            <div class="logo-div">
+              <img src="img/lower-logo.png" alt=""> <span>COVID-19</span>
+            </div>
+            <p class="design-words">DesignMamba an online marketplace built to cope with promising future</p>
+          </div>
+          <div class="col-md-2">
+            <ul class="useful-links">
+              <h4>Useful Links</h4>
+              <li><a class="active" href="#">Why?</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Carrers</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contract</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul class="privacy">
+              <li><a href="#">T&C</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="contact-us">
+              <h4>Contact us</h4>
+              <li>Tel: <a href="tel:+20-103-071-1654">+20-103-071-1654</a></li>
+              <li><a href="#">oradwan007@gmail.com</a></li>
+              <div class="loca">
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Lalmatia, Dhaka-1207</a></li>
+              </div>
+            </ul>
+          </div>
+          <div class="col-md-2 keep">
+            <h4>Keep in Touch</h4>
+            <div class="social-icons">
+              <i class="fab fa-facebook-f"><a href="#"></a></i>
+              <i class="fab fa-youtube"><a href="#"></a></i>
+              <i class="fab fa-instagram"><a href="#"></a></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="copyright">
+        &copy; Programmers Caffe, All Rights Reseved
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Loader Container -->
+    <div class="loader-container">
+      <img src="img/preloder.gif" alt="">
+    </div>
+    <!-- Loader Container -->
+
+    <!-- Scroll to top -->
+    <div class="back-to-top">
+      <i class="fas fa-chevron-circle-up"></i>
+    </div>
+    <!-- Scroll to top -->
+
+    <!-- Assessts libs -->
+    <script src="js/libs/wow.min.js"></script>
+    <!-- BootStrap bundle js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Main Js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
