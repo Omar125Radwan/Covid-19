@@ -1,5 +1,5 @@
-// Fetch Json
-let cons = document.querySelector('.countries');
+// Fetch Json // you can use this code and remove code (HTML) inside countries class
+/*let cons = document.querySelector('.countries');
 getJson();
 function getJson() {
   fetch('/data.json')
@@ -18,7 +18,7 @@ function getJson() {
       `
     }
   });
-}
+}*/
 
 // window onload
 window.onload = () => {

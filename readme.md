@@ -21,3 +21,4 @@ main.js => /*Es06*/.
 
 data:
 data of Covid Casses Came From /*data.json*/
+Github can't read local data json so i do it html and commented it in js file, Thanks
