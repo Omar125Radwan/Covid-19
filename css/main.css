@@ -462,6 +462,7 @@ html {
   background-color: #262c7c;
   padding: 90px 0 50px 0;
   color: #fff;
+  overflow: hidden !important;
 }
 .footer li a {
   text-decoration: none;
@@ -637,6 +638,11 @@ html {
     top: 8rem;
     width: 63rem;
     height: 63rem;
+  }
+}
+@media (min-width: 992px) {
+  .design-words br {
+    display: none;
   }
 }
 @media (max-width: 992px) {
